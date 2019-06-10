@@ -7,4 +7,7 @@
 ## Запуск кода
 ````
 python task2.py
-```
+````
+
+## Тесты
+https://docs.google.com/document/d/14zZCed2O-L-hnUDSswrbupqUxS7U_xsDzGWmVXJ4RGA/edit?usp=sharing
