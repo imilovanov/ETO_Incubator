@@ -46,5 +46,5 @@ https://github.com/mozilla/geckodriver/releases/tag/v0.24.0
 Запустить тесты
 
 ```
-python task5.py
+python -m unittest task5.py
 ```
