@@ -76,3 +76,14 @@ docker pull selenoid/vnc:opera_58.0
 ```
 ./cm selenoid-ui start
 ```
+## Запуск тестов
+Запустить тесты
+```
+python -m unittest task6_chrome.py
+python -m unittest task6_firefox.py
+python -m unittest task6_opera.py
+```
+Получить доступ к VNC сессии на порту 8080
+```
+http://localhost:8080/
+```
