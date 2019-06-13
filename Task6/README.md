@@ -62,6 +62,12 @@ curl -s https://aerokube.com/cm/bash | bash
     }
 }
 ```
+Скачать образы браузеров
+```
+docker pull selenoid/vnc:firefox_67.0
+docker pull selenoid/vnc:chrome_74.0
+docker pull selenoid/vnc:opera_58.0
+```
 Запуск Selenoid
 ```
 ./cm selenoid start --vnc
